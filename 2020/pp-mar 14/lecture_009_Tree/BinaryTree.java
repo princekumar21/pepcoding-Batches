@@ -86,7 +86,7 @@ public class BinaryTree {
 
         int maxEle = node.data;
         maxEle = Math.max(maxEle, max2(node.left));
-        maxEle = Math.max(maxEle, max2(node.left));
+        maxEle = Math.max(maxEle, max2(node.right));
 
         return maxEle;
 
